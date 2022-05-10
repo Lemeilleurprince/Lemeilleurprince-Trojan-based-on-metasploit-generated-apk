@@ -19,20 +19,13 @@ After analyzing the code, I found the algorithms to decode f0a, so, I show the d
 
 5.Let's begin to build our customised trojan then!
 
-1)Open your Android Studio and start from an empty activity;
-
-2)Copy the decompiled files to directory java/main/src;
-
-3)Press Alt +Enter to erase every red underline you meet;
-
-4)Remember to change the byte[] f0a, make sure it's your own ip address,get it from the decompiled file Payload.java (I can't understand how metasploit generates such a byte[], if you know, it will be much easier to change it!);
-
-5)Good! You are almost there! Add your customised activities to this project and all is done! Oh,wait a second!
-
-6)Don't forget to change AndroidManifest.xml, add permissions, service and so on!
+> 1)Open your Android Studio and start from an empty activity;
+> 2)Copy the decompiled files to directory java/main/src;
+> 3)Press Alt +Enter to erase every red underline you meet;
+> 4)Remember to change the byte[] f0a, make sure it's your own ip address,get it from the decompiled file Payload.java (I can't understand how metasploit generates such a byte[], if you know, it will be much easier to change it!);
+> 5)Good! You are almost there! Add your customised activities to this project and all is done! Oh,wait a second!
+> 6)Don't forget to change AndroidManifest.xml, add permissions, service and so on!
 
 6.Well, we got it! Kind of difficult, Aha~
 
-7.Enjoy hacking! 
-
-8.Why not start android studio and msfconsole now?
+**Enjoy hacking! Why not start android studio and msfconsole now?**
